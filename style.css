@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body{
+    background: url(img/fond.png);
+    margin-top: 0;
+    font-family: 'Oswald', sans-serif;
+}
+section,
+header{
+    width: 800px;
+    margin: auto;
+}
+/***start header***/
+header{
+    font-weight: bold;
+    font-size: 18px;
+    height: 123px;
+    background-color: rgb(184, 203, 33);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+div,nav,
+header nav ul li {
+    display: inline-block;
+    vertical-align: middle;
+}
+header nav {
+    margin-left: 160px;
+}
+header nav ul li{
+    margin-left: 50px;
+}
+header nav ul li a{
+    color: rgb(71, 77, 10);
+}
+
+/***end header***/
+/***start main***/
+div{
+    width: 150px;
+}
+article{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.backg{
+    background: white;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+h2{
+    margin-top: 0;
+    color: rgb(184, 203, 33);
+}
+.imag{
+    width: 200px;
+    float: left;
+    margin-right: 10px;
+    object-fit: cover;
+}
+span{
+    float: left;
+    margin-right: 5px;
+    color: rgb(184, 203, 33);
+}
+.fa-brands.fa-pagelines{
+    font-size: 36px;
+    color: #B8CB21;
+ }
+button{
+    background-color: rgb(184, 203, 33);
+    border: none;
+    padding: 10px 8px;
+    color: white;
+    font-weight: bold;
+    margin-left: 674px;
+    cursor: pointer;
+  }
+/***end header***/
+/***start footer***/
+  
+.info{
+    width: 80%;
+    margin-left: 150px;
+}
+.w3-logo{
+    width: 50px;
+    margin-left: 45%;
+    margin-top: 30px;
+}
+.para{
+    text-align: center;
+    font-size: 13px;
+}
+/***end header***/
