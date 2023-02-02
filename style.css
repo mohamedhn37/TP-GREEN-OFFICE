@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
-
+*{
+    transition: all 1s;
+}
 body{
     background: url(img/fond.png);
     margin-top: 0;
@@ -66,7 +68,7 @@ span{
 .fa-brands.fa-pagelines{
     font-size: 36px;
     color: #B8CB21;
- }
+}
 button{
     background-color: rgb(184, 203, 33);
     border: none;
@@ -75,7 +77,11 @@ button{
     font-weight: bold;
     margin-left: 674px;
     cursor: pointer;
-  }
+}
+button:hover{
+    background-color: lightgray;
+    color: rgb(184, 203, 33);
+}
 /***end header***/
 /***start footer***/
   
